@@ -13,7 +13,7 @@ roxo = '#A569BD'
 st.markdown("<h1 style='text-align: center; color: #FF69B4;'>🍿🎬 Análise de Filmes - IMDb 🎥✨</h1>", unsafe_allow_html=True)
 
 # Ler a base de dados
-df = pd.read_csv('../bases_tratadas/dados_tratados_final.csv')
+df = pd.read_csv('./bases_tratadas/dados_tratados_final.csv')
 
 # Mostrar dados brutos
 with st.expander('🔍 Visualizar dados brutos'):
